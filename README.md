@@ -1,5 +1,9 @@
 ## kitty conf
 ```bash
+nano ~/.config/kitty/kitty.conf 
+```
+
+```bash
 enable_audio_bell no
 
 include color.ini
@@ -51,13 +55,16 @@ background_opacity 0.95
 
 
 shell zsh
+```
 
-
-
-wget https://github.com/joseluisinigo/configuracion-kitty/color.ini 
-in ~.config/kitty
+```bash
+# Descargar color en ~/.config/kitty
+wget https://github.com/joseluisinigo/configuracon-kitty/blob/main/color.ini
 
 ```
+
+## Atajos de teclado
+
 control+shift enter Abrir una pantalla dentro de kitty
 
 control+shift w cerrar ventana
